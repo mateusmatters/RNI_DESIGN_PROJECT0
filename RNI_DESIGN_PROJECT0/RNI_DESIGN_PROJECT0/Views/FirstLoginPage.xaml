@@ -6,6 +6,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to RNI's login screen!"
+                   {
+                   console.readline(text)
+                   }
                 TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
