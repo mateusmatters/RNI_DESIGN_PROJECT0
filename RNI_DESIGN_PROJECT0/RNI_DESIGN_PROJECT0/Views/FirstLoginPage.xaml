@@ -9,6 +9,8 @@
                 TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Label Text="Testing label"
+                TextColor="White"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
