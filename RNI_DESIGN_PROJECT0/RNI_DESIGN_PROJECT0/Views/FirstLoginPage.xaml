@@ -8,12 +8,9 @@
              
              xmlns:viewmodels="clr-namespace:RNI_DESIGN_PROJECT0.ViewModels"
 
-              x:DataType= "viewmodels:FirstLoginPageViewModel"
+             x:DataType= "viewmodels:FirstLoginPageViewModel"
              x:Class="RNI_DESIGN_PROJECT0.Views.FirstLoginPage">
-            
-    <ContentPage.BindingContext>
-        <viewmodels:FirstLoginPageViewModel/>
-    </ContentPage.BindingContext>
+
 
     <StackLayout Padding="0">
 
@@ -60,8 +57,7 @@
 
 
 
-                                    <Entry Placeholder="Email" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
-
+                                    <Entry Text ="{Binding InputedUserName}" Placeholder="Email" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
 
 
                                 </StackLayout>
@@ -86,8 +82,8 @@
 
 
 
-                                    <Entry Placeholder="Password" IsPassword="True" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
-
+                                    <Entry Text ="{Binding InputedPassword}" Placeholder="Password" IsPassword="True" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    <Label Text="{Binding InputedPassword}"/>
                                 </StackLayout>
 
                             </Frame>

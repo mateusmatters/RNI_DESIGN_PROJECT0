@@ -7,6 +7,8 @@
             <Label Text="Welcome to the Medications Page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Click me"/>
+            <Entry Placeholder="Email" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

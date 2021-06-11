@@ -1,33 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace RNI_DESIGN_PROJECT0.ViewModels
 {
-    public class FirstLoginPageViewModel : BindableObject
+    public class FirstLoginPageViewModel : INotifyPropertyChanged
     {
-        string inputedUserName = "Bob";
+        string inputedUserName = "";
+        string inputedPassword = "";
 
-        public FirstLoginPageViewModel() {
-            UserEntry = new Command(OnUserEntry);
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
-        public string InputedUserName {
-            get => inputedUserName;
-            set {
-                if (value == inputedUserName) {
-                    return;
-                }
-                inputedUserName = value;
-                OnPropertyChanged();
-            }
+        // public FirstLoginPageViewModel() {
+        // }
+
+        public string InputedUserName
+        {
+            get { return inputedUserName; }
+            set { inputedUserName = value; OnPropertyChanged(nameof(InputedUserName)); }
         }
 
-        public ICommand UserEntry;
-        void OnUserEntry() {
-            inputedUserName = "Bob";
+        public string InputedPassword
+        {
+            get { return inputedPassword; }
+            set { inputedPassword = value; OnPropertyChanged(nameof(InputedPassword)); }
         }
     }
 }

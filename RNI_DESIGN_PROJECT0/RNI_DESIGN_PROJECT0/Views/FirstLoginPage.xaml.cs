@@ -16,6 +16,7 @@ namespace RNI_DESIGN_PROJECT0.Views
         public FirstLoginPage()
         {
             InitializeComponent();
+            BindingContext = new FirstLoginPageViewModel();
         }
     }
 }
