@@ -18,5 +18,10 @@ namespace RNI_DESIGN_PROJECT0.Views
             InitializeComponent();
             BindingContext = new FirstLoginPageViewModel();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync($"{nameof(DailyActivitiesPage)}");
+        }
     }
 }

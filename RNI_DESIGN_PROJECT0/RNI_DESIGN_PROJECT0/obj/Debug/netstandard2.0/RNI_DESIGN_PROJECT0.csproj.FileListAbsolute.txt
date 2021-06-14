@@ -15,3 +15,5 @@ C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJ
 C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\obj\Debug\netstandard2.0\Views\FirstLoginPage.xaml.g.cs
 C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\obj\Debug\netstandard2.0\Views\MedicationsPage1.xaml.g.cs
 C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\obj\Debug\netstandard2.0\Views\DailyActivitiesPage.xaml.g.cs
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\obj\Debug\netstandard2.0\Views\CreateNewAccountPage.xaml.g.cs
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\obj\Debug\netstandard2.0\Views\ForgotPasswordPage.xaml.g.cs
