@@ -17,9 +17,7 @@
     <StackLayout Padding="0">
 
         <Grid>
-
             <StackLayout Padding="0" Margin="0">
-                
 
                 <Frame BackgroundColor="DimGray" HeightRequest="110" HorizontalOptions="FillAndExpand">
 
@@ -54,7 +52,6 @@
                                     <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
 
 
-
                                     </Frame>
 
 
@@ -64,11 +61,7 @@
 
                                 </StackLayout>
 
-
-
                             </Frame>
-
-
 
                             <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0,20,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
 
@@ -76,13 +69,7 @@
 
                                     <Frame BackgroundColor="AliceBlue" CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
 
-
-
                                     </Frame>
-
-
-
-
 
                                     <Entry Text ="{Binding InputedPassword}" Placeholder="Password" IsPassword="True" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
                                 </StackLayout>

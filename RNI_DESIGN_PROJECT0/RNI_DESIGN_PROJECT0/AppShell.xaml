@@ -4,7 +4,7 @@
        xmlns:local="clr-namespace:RNI_DESIGN_PROJECT0.Views"
        Title="RNI_DESIGN_PROJECT0"
        x:Class="RNI_DESIGN_PROJECT0.AppShell">
-
+        
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
     
@@ -78,9 +78,12 @@
         FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
+    
+    <!--
     <ShellItem Route="FirstLoginPage" FlyoutItemIsVisible="False">
         <ShellContent ContentTemplate="{DataTemplate local:FirstLoginPage}"/>
     </ShellItem>
+    -->
     <FlyoutItem Title="Daily Activities" Icon="icon_about.png">
         <ShellContent Route="DailyActivitiesPage" ContentTemplate="{DataTemplate local:DailyActivitiesPage}" />
     </FlyoutItem>

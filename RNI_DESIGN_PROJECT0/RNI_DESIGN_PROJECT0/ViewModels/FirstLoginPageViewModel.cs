@@ -11,6 +11,7 @@ namespace RNI_DESIGN_PROJECT0.ViewModels
 {
     public class FirstLoginPageViewModel : INotifyPropertyChanged
     {
+        
         private string inputedUserName = "";
         private string inputedPassword = "";
         private string incorrectUsernamePasswordText = "";
@@ -52,8 +53,10 @@ namespace RNI_DESIGN_PROJECT0.ViewModels
             _ = CreateNewAccountRoute();
         }
 
+
+        //These "//" marks are very important. Called relative or absolute routes. Learn more about them later. 
         async Task SignInRoute() {
-            await Shell.Current.GoToAsync($"{nameof(DailyActivitiesPage)}");
+            await Shell.Current.GoToAsync($"//{nameof(DailyActivitiesPage)}");
         }
 
         async Task ForgotPasswordRoute()

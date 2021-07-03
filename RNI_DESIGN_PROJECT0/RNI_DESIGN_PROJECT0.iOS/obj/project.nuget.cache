@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "fR/BUwQZJkdpxl9pUfL/E5rxaLukgRCo1z4J6wX+p58o84hq/7gUkzg/Yq34olmn0R4MXNI6BStrPoGykTswiA==",
+  "dgSpecHash": "0wWsvGwBagGqBFARPaJn+uX4QMd218GfK1HBGrwcriwZ5H/lK7tfIpRxke7HSLIp9caYk3K4uTzbDnauU8t1Xw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\source\\repos\\RNI_DESIGN_PROJECT0\\RNI_DESIGN_PROJECT0\\RNI_DESIGN_PROJECT0.iOS\\RNI_DESIGN_PROJECT0.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
   ],
   "logs": []
 }

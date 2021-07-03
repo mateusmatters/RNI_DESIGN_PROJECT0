@@ -6,16 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\icons8-buying-40.png" />
+    <None Remove="Images\icons8-menu-26.png" />
+    <None Remove="Images\icons8-test-account-16.png" />
+    <None Remove="Images\rni_calendar.png" />
     <None Remove="Images\rni_design_logo.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\icons8-buying-40.png" />
+    <EmbeddedResource Include="Images\icons8-menu-26.png" />
+    <EmbeddedResource Include="Images\icons8-test-account-16.png" />
+    <EmbeddedResource Include="Images\rni_calendar.png" />
     <EmbeddedResource Include="Images\rni_design_logo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />  
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.759" />
   </ItemGroup>
 
   <ItemGroup>
