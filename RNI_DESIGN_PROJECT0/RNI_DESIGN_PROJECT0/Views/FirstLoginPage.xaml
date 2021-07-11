@@ -17,6 +17,9 @@
     <StackLayout Padding="0">
 
         <Grid>
+            
+            
+            
             <StackLayout Padding="0" Margin="0">
 
                 <Frame BackgroundColor="DimGray" HeightRequest="110" HorizontalOptions="FillAndExpand">
@@ -125,7 +128,7 @@
                 </Frame>
 
             </StackLayout>
-
+        
         </Grid>
 
     </StackLayout>
