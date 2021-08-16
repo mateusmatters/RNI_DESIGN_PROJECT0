@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "RNI_DESIGN_PROJECT0.Android.dll" comes first in this list. */
 		"RNI_DESIGN_PROJECT0.Android.dll",
 		"FormsViewGroup.dll",
+		"MySqlConnector.dll",
 		"RNI_DESIGN_PROJECT0.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

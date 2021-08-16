@@ -598,8 +598,9 @@ C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJ
 C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\stamp\_AndroidXJetifyManifest.stamp
 C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\_AndroidXJetifyManifest.jetify
 C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\stamp\_CopyIntermediateAssemblies.stamp
-C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\jl\85a9cd77-5129-4481-9460-a8154d539d8c.jar
-C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\13bb58ca-1d1b-4809-bbc5-6d34a088376a.txt
-C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\43edfe3b-35b5-46a4-9927-0033db7d8521.cfg
-C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\a5c661e9-fac9-47a7-84ca-8077317497c8.txt
-C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\bceec3f4-9717-4299-98c3-6aac6d3aac83.txt
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\android\assets\MySqlConnector.dll
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\jl\a8b773e2-7dbb-4436-b73a-80a222bb854a.jar
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\0e63e29d-e16a-4bf8-8288-ac2307477027.txt
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\1769c8c0-046c-4627-80b6-2f318bcb92c6.txt
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\76157503-476d-4e3e-9666-874d9a8d35ce.cfg
+C:\Users\PC\source\repos\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0\RNI_DESIGN_PROJECT0.Android\obj\Debug\110\androidx\proguard\aa913c92-0295-4535-9c7d-eb4d190de60a.txt

@@ -4,14 +4,14 @@ using Xamarin.Forms;
 
 namespace RNI_DESIGN_PROJECT0
 {
-    public partial class AppShell : Xamarin.Forms.Shell
+    public partial class AppShell : Shell
     {
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(DailyActivitiesPage), typeof(DailyActivitiesPage));
             Routing.RegisterRoute(nameof(ForgotPasswordPage), typeof(ForgotPasswordPage));
             Routing.RegisterRoute(nameof(CreateNewAccountPage), typeof(CreateNewAccountPage));
+            Routing.RegisterRoute(nameof(MadeAccountPage), typeof(MadeAccountPage));
         }
     }
 }

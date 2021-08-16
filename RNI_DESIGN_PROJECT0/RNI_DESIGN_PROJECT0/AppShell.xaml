@@ -89,8 +89,8 @@
     <FlyoutItem Title="Medications" Icon="icon_about.png">
         <ShellContent Route="MedicationsPage" ContentTemplate="{DataTemplate local:MedicationsPage1}" />
     </FlyoutItem>
-    <FlyoutItem Title="Logout" Icon= "icon_about.png">
+    <FlyoutItem Title="Logout" Icon= "icon_about.png" >
         <ShellContent Route="FirstLoginPage" ContentTemplate="{DataTemplate local:FirstLoginPage}"/>
     </FlyoutItem>
-        
+
 </Shell>

@@ -59,7 +59,7 @@
 
 
 
-                                    <Entry Text ="{Binding InputedUserName}" Placeholder="Email" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    <Entry Text ="{Binding InputedEmail}" Placeholder="Email" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
 
 
                                 </StackLayout>

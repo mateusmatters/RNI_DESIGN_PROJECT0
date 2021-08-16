@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0wWsvGwBagGqBFARPaJn+uX4QMd218GfK1HBGrwcriwZ5H/lK7tfIpRxke7HSLIp9caYk3K4uTzbDnauU8t1Xw==",
+  "dgSpecHash": "eE74ZqDBtsByGohpnii9mo83SG+PLylC2jO0X+jTX8edGa0L/8iZoJZIziOynBHXyLN0KxRaordEKowOD7uuGw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\source\\repos\\RNI_DESIGN_PROJECT0\\RNI_DESIGN_PROJECT0\\RNI_DESIGN_PROJECT0.iOS\\RNI_DESIGN_PROJECT0.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\mysqlconnector\\1.3.11\\mysqlconnector.1.3.11.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

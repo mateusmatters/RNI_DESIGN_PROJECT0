@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.11, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -109,6 +113,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.11, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -1,10 +1,5 @@
 ﻿using RNI_DESIGN_PROJECT0.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using RNI_DESIGN_PROJECT0.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,10 +13,9 @@ namespace RNI_DESIGN_PROJECT0.Views
             InitializeComponent();
             BindingContext = new FirstLoginPageViewModel();
         }
-
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync($"{nameof(DailyActivitiesPage)}");
+        protected override void OnAppearing() {
+            RNIConnectionObject.kill_connection_object();
+            RNIConnectionObject.Logged_In = false;
         }
     }
 }

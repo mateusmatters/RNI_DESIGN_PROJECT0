@@ -1,13 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:RNI_DESIGN_PROJECT0.ViewModels"
              Shell.FlyoutBehavior="Disabled"
+             x:DataType= "viewmodels:CreateNewAccountPageViewModel"
              x:Class="RNI_DESIGN_PROJECT0.Views.CreateNewAccountPage">
+    <ContentPage.BindingContext>
+        <viewmodels:CreateNewAccountPageViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to creating a new account!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+            <Entry Text ="{Binding InputedFirstName}" Placeholder="first name" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+            <Entry Text ="{Binding InputedLastName}" Placeholder="last name" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+            <Entry Text ="{Binding InputedEmail}" Placeholder="Email" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+            <Entry Text ="{Binding InputedUserName}" Placeholder="username" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+            <Entry Text ="{Binding InputedPassword}" Placeholder="password" TextColor="LightGray" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+            <Button Text="Create New Account" BackgroundColor="Yellow" TextColor="DodgerBlue" FontAttributes="Bold" CornerRadius="30" Command="{Binding CreateAccountClick}"/>
+            <Label Text="{Binding ErrorTextMessage}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,18 +1,17 @@
 ﻿using RNI_DESIGN_PROJECT0.Views;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using RNI_DESIGN_PROJECT0.Models;
+
 
 namespace RNI_DESIGN_PROJECT0.ViewModels
 {
     public class FirstLoginPageViewModel : INotifyPropertyChanged
     {
         
-        private string inputedUserName = "";
+        private string inputedEmail = "";
         private string inputedPassword = "";
         private string incorrectUsernamePasswordText = "";
 
@@ -41,6 +40,8 @@ namespace RNI_DESIGN_PROJECT0.ViewModels
             }
             else
             {
+                int user_id = ConnectToRNIDatabase.get_user_id(InputedEmail,InputedPassword);
+                RNIConnectionObject.create_connection_object(user_id);
                 _ = SignInRoute();
             }
         }
@@ -69,10 +70,10 @@ namespace RNI_DESIGN_PROJECT0.ViewModels
             await Shell.Current.GoToAsync($"{nameof(CreateNewAccountPage)}");
         }
 
-        public string InputedUserName
+        public string InputedEmail
         {
-            get { return inputedUserName; }
-            set { inputedUserName = value; OnPropertyChanged(nameof(InputedUserName)); }
+            get { return inputedEmail; }
+            set { inputedEmail = value; OnPropertyChanged(nameof(InputedEmail)); }
         }
 
         public string InputedPassword
@@ -87,9 +88,10 @@ namespace RNI_DESIGN_PROJECT0.ViewModels
             set { incorrectUsernamePasswordText = value; OnPropertyChanged(nameof(IncorrectUsernamePasswordText)); }
         }
 
-        public bool ValidUserNameAndPassword() //simple version for now, once app becomes more advanced have to change it
+        public bool ValidUserNameAndPassword()
         {
-            return inputedPassword != "" && inputedUserName != "";
+            return ConnectToRNIDatabase.Correct_Email_And_Password(inputedEmail , inputedPassword);
+
         }
     }
 }

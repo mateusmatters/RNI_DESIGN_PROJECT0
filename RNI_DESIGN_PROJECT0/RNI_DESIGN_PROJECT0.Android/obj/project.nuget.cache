@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eHUQKnYLFgNmuPH3uiYXagzCrJCoLskyV/LBw1CX/59DfulrE2LwC/EgsWGvzdsJ9cOdsFEBQ9gVU1DwnGqRxQ==",
+  "dgSpecHash": "NeqNpQU6qSpIXoeAwgI+tvWdl86hC7pC/IeyxgD7sbfufdeT0li1l2SQ9gpaozRvvSy6nay+XUrVVS1+0yH6nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\source\\repos\\RNI_DESIGN_PROJECT0\\RNI_DESIGN_PROJECT0\\RNI_DESIGN_PROJECT0.Android\\RNI_DESIGN_PROJECT0.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\mysqlconnector\\1.3.11\\mysqlconnector.1.3.11.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

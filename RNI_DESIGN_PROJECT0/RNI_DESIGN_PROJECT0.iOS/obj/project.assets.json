@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "MySqlConnector/1.3.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        }
+      },
       "System.ComponentModel/4.3.0": {
         "type": "package",
         "compile": {
@@ -177,6 +186,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MySqlConnector": "1.3.11",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
@@ -190,6 +200,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "MySqlConnector/1.3.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        }
+      },
       "System.ComponentModel/4.3.0": {
         "type": "package",
         "compile": {
@@ -365,6 +384,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MySqlConnector": "1.3.11",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
@@ -378,6 +398,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "MySqlConnector/1.3.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        }
+      },
       "System.ComponentModel/4.3.0": {
         "type": "package",
         "compile": {
@@ -553,6 +582,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MySqlConnector": "1.3.11",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
@@ -566,6 +596,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "MySqlConnector/1.3.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MySqlConnector.dll": {}
+        }
+      },
       "System.ComponentModel/4.3.0": {
         "type": "package",
         "compile": {
@@ -741,6 +780,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "MySqlConnector": "1.3.11",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "Xamarin.Forms.PancakeView": "2.3.0.759"
@@ -755,6 +795,37 @@
     }
   },
   "libraries": {
+    "MySqlConnector/1.3.11": {
+      "sha512": "CwzHwRTN+zMKYfEpfwWJ2QzI6JtTYujBbrVHp45zq1BttuykQkqGlZYL9ZUwA2x5xTRBJTDZoy9S6kfN6S0Suw==",
+      "type": "package",
+      "path": "mysqlconnector/1.3.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net5.0/MySqlConnector.dll",
+        "lib/net5.0/MySqlConnector.xml",
+        "lib/netcoreapp2.1/MySqlConnector.dll",
+        "lib/netcoreapp2.1/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard1.3/MySqlConnector.dll",
+        "lib/netstandard1.3/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.1.3.11.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
     "System.ComponentModel/4.3.0": {
       "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
       "type": "package",
@@ -1172,6 +1243,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "MySqlConnector >= 1.3.11",
       "RNI_DESIGN_PROJECT0 >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012",
@@ -1220,6 +1292,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[1.3.11, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.6.1, )"
